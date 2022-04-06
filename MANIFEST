@@ -17,6 +17,7 @@ MANIFEST			This list of files
 META.yml
 Printer.pm
 README
+SIGNATURE
 t/Plack-App-Data-Printer/01-use.t
 t/Plack-App-Data-Printer/02-version.t
 xt/Plack-App-Data-Printer/01-pod_coverage.t
