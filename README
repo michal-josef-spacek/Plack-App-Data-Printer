@@ -51,7 +51,16 @@ EXAMPLE
      # HTTP::Server::PSGI: Accepting connections at http://0:5000/
 
      # > curl http://localhost:5000/
-     # TODO
+     # {
+     #     example   [
+     #         [0] 1,
+     #         [1] 2,
+     #         [2] {
+     #                 foo   "bar"
+     #             },
+     #         [3] 5
+     #     ]
+     # }
 
 DEPENDENCIES
     Data::Printer, Error::Pure, Plack::Component, Plack::Util::Accessor.
