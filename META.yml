@@ -3,7 +3,6 @@ abstract: 'Plack Data::Printer application.'
 author:
   - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
-  Error::Pure: 0
   ExtUtils::MakeMaker: 6.59
   File::Object: 0
   Test::More: 0
@@ -26,7 +25,9 @@ no_index:
     - xt
 requires:
   Data::Printer: 0
+  Error::Pure: 0
   Plack::Component: 0
+  Plack::Util::Accessor: 0
   perl: 5.8.0
 resources:
   bugtracker: https://github.com/michal-josef-spacek/Plack-App-Data-Printer/issues

@@ -1,5 +1,6 @@
 0.02
  - Fix META.yml file.
+ - Fix dependencies.
  - Regen README file.
 
 0.01 2022-04-07T00:58:53+02:00
