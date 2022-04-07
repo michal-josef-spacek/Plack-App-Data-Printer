@@ -1,4 +1,6 @@
 0.03
+ - Fix minimal dependency of Data::Printer. Lesser versions has issue with
+   ANSI sequences. (thanks Slaven Rezić for reporting of issue)
 
 0.02 2022-04-07T01:26:34+02:00
  - Add test.

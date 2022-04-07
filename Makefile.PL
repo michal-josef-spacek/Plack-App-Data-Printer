@@ -18,7 +18,7 @@ name 'Plack-App-Data-Printer';
 perl_version 5.008;
 readme_from 'Printer.pm';
 recursive_author_tests('xt');
-requires 'Data::Printer' => 0;
+requires 'Data::Printer' => 1.0;
 requires 'Error::Pure' => 0;
 requires 'Plack::Component' => 0;
 requires 'Plack::Util::Accessor' => 0;

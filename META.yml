@@ -27,7 +27,7 @@ no_index:
     - t
     - xt
 requires:
-  Data::Printer: 0
+  Data::Printer: 1
   Error::Pure: 0
   Plack::Component: 0
   Plack::Util::Accessor: 0
