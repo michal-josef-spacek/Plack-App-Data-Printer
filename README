@@ -9,6 +9,8 @@ SYNOPSIS
      my $app = $obj->to_app;
 
 METHODS
+    Class inherites Plack::Component.
+
   "new"
      my $obj = Plack::App::Data::Printer->new(%parameters);
 

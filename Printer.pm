@@ -56,6 +56,8 @@ Plack::App::Data::Printer - Plack Data::Printer application.
 
 =head1 METHODS
 
+Class inherites Plack::Component.
+
 =head2 C<new>
 
  my $obj = Plack::App::Data::Printer->new(%parameters);
