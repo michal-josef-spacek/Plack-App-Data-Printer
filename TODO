@@ -2,7 +2,8 @@ TODO
 ====
 2. Naked subroutines in author tests.
 3. HTML output?
-4.
+4. to_app don't return Plack::Component.
+5.
 
 Applied
 =======
