@@ -16,6 +16,12 @@ METHODS
 
     Returns instance of object.
 
+    *       "data"
+
+            Data structure to print out.
+
+            Parameter is required.
+
   "call"
      my $psgi_ar = $obj->call($env);
 

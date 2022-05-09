@@ -64,6 +64,16 @@ Constructor.
 
 Returns instance of object.
 
+=over 8
+
+=item * C<data>
+
+Data structure to print out.
+
+Parameter is required.
+
+=back
+
 =head2 C<call>
 
  my $psgi_ar = $obj->call($env);
